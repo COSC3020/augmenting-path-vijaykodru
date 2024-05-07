@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/NehM89hy)
 # Augmenting Paths
 
 When we talked about the Ford-Fulkerson algorithm to find the maximum flow
@@ -32,3 +33,17 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+
+The worst case big $\Theta$ complexity of my implementation is $\Theta(|V| + |E|)$. This is because the if statement inside the Findpath function iterates of V number of vertices and finds the edges towards the target node. Because we are analysing for the worst case, which will be the case no path exists between the start and the target node, the program iterates over all the vertices |V| and goes over each edge |E| from that vertice reuslting the in the runtime of $\Theta(|V| + |E|)$. The implementation of the code is mostly same as my graph search code.
+
+References: 
+
+augmenting-path-AaronATM
+
+augmenting-path-IshitaPatel18
+
+graph-search-vijaykodru
+
+
+
